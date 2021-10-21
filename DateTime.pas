@@ -27,6 +27,8 @@ begin
     end;
 end;
 
+function SecondsInHours(hours : integer): integer := hours * 60 * 60;
+
 begin
 
 end.
